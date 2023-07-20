@@ -191,3 +191,40 @@ footer {
     font-weight: 600;
     line-height: normal;
 }
+
+.icon-footer {
+    color: #FFF;
+    padding-top: 50px;
+    width: 420px;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.8rem;
+    padding-left: 560px;
+}
+
+.policy-footer {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 50px;
+    width: 650px;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    padding-left: 420px;
+}
+
+.copyright-footer {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 50px;
+    /* padding-left: 420px; */
+    text-align: center;
+
+
+}
