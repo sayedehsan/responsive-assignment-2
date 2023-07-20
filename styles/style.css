@@ -17,6 +17,12 @@ body {
     line-height: normal;
 }
 
+li>button {
+    border-radius: 5%;
+    border: none;
+    align-items: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -227,4 +233,31 @@ footer {
     text-align: center;
 
 
+}
+
+.img-button-list {
+    height: 200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 50px;
+
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    align-items: center;
+
+
+}
+
+ul>li {
+    list-style: none;
+    margin: auto;
+}
+
+li>img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
 }
